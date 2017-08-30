@@ -1,0 +1,70 @@
+body {
+  color: white;
+  font-family: "Handlee", cursive;
+  font-size: 3em;
+  text-shadow: rgba(71, 3, 3, 0.09) 1px 1px 11px; }
+
+a,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  color: red; }
+
+a:hover {
+  opacity: 0.4; }
+
+h1 {
+  font-size: 1.65em;
+  font-weight: bold; }
+
+.btn {
+  border-radius: 8px; }
+
+.btn:focus, .btn:active:focus {
+  outline: none; }
+
+.background {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(222, 95, 95, 0.53);
+  z-index: -9999; }
+
+.tomato-container {
+  width: 442px;
+  height: 451px;
+  position: relative; }
+
+#rotate-tomato {
+  z-index: -1;
+  transform-origin: 50% 63%;
+  clip-path: circle(222px at center); }
+
+.container-fluid {
+  padding: 0; }
+
+.display-holder {
+  position: absolute;
+  top: 209px;
+  left: 75px;
+  font-size: 2em;
+  z-index: 9999;
+  text-shadow: rgba(146, 0, 0, 0.69) -1px 1px 16px;
+  height: 200px;
+  width: 300px; }
+
+#state-display {
+  margin-top: -30px;
+  font-size: 0.75em; }
+
+#work-display, #break-display {
+  padding: 10px; }
+
+.hide {
+  opacity: 0; }
+
+.spacer {
+  margin-top: 20px; }
+
+/*# sourceMappingURL=style.css.map */
